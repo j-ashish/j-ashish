@@ -1,4 +1,4 @@
-###J-ASHISH.github.io
+<h1>J-ASHISH.github.io</h1>
 
 <!--
 **j-ashish/j-ashish** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,4 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-This is my first project and same file is uploaded at <a>ashishjain.rf.gd</a>
+<p>This is my first project and same file is uploaded at <a href="ashishjain.rf.gd">LINK</a> </p>
+<hr>
+<p> For now I am learning Javascript frameworks and Python GUI Tkinter Frameworks</p>
+
