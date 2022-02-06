@@ -1,0 +1,98 @@
+#footer{
+ border: 10px;
+ border-style: groove;
+ border-radius: 40px;
+ border-color: linear-gradient(to left grey,black);
+ background: linear-gradient(to right,#4d4d00,black);   
+}
+form{
+    padding-left: 20px;
+}
+input #fname,#ln,#em,#sub,#message{
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 10px;
+}
+#message{
+    height: 100px;
+    border-radius: 0%;
+    margin-left: 265px;
+    margin-top: -15px;
+}
+#msg{
+    display: block;
+    width: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px black unset;
+    border-radius: 30px;
+    background: linear-gradient(to right,#cc6600,#cc0099);   
+    padding-left: 10px;
+
+}
+
+label {
+    display: inline-block;
+    width: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px black unset;
+    border-radius: 30px;
+    background: linear-gradient(to right,#cc6600,#cc0099);   
+    padding-left: 10px;
+}
+#formdiv{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+label,input{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+#s1,#s2,#s3{
+    display: inline-block;
+    width: 56px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px black unset;
+    border-radius: 30px;
+    padding-left: 10px;   
+    margin-left: 6px ;
+}
+#s1{
+
+    background: linear-gradient(to right,red,black);   
+}
+#s2{
+
+    background: linear-gradient(to right,#ff0066,#cc0099);   
+}
+#s3{
+    background: linear-gradient(to right,red,orange,yellow,green,blue,violet);   
+}
+
+#buttonspan{
+    margin-left: 263px;
+
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    border: 1px grey outset;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    box-shadow: 5px 5px 2px lightgrey;
+    position: static;
+}
+
+button:hover{
+    position:static;
+    background-color: aqua;
+    border: 2px inset white;
+    border-radius: 0px;
+    font-size: larger;
+
+}
+button:active {
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);
+  }

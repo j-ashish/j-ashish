@@ -1,0 +1,52 @@
+.close{
+    display: none;
+}
+.open{
+    display: block;
+}
+ul{
+    margin-left: -40px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+    box-shadow: 10px 10px 5px black;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+ul li:hover{
+    box-shadow:
+                1px 1px red,
+                2px 2px red,
+                3px 3px red;
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-3px);
+    
+    background-color: #00ff00;
+    color: white;
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+ .maina:hover{
+    animation: myglow;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;   
+    font-size: 15px;
+ }
+ 
+ 
+ @keyframes myglow{
+    50%{text-shadow: 0px 0px 0px red;}
+    100%{text-shadow: 0px 0px 0px yellow;}
+}

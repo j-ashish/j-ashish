@@ -1,0 +1,45 @@
+#first_div{
+    border: 20px gray inset;
+    border-radius: 40px;
+    background: linear-gradient(to right,cyan,black);
+    margin-left:20% ;
+    margin-right: 20%;
+    box-shadow: 30px 30px 40px #666666;
+
+}
+div .div_in{
+    display: block;
+    border: 10px grey outset;
+    border-radius: 30px;
+    background-color: teal;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 30px 30px 30px #000000;
+    transition: transform 1s;
+}
+
+html{
+    background-image: url("matrix.jpg");
+    background-repeat: no-repeat ;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#first_div:hover{
+    box-shadow:
+                10px 10px #53a7ea,
+                20px 20px #53a7ea,
+                30px 30px #53a7ea;
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+}
+
+div span:hover{
+    transform: translate(-10px, -10px);
+
+}
+.innerp:hover{
+    background: linear-gradient(to right,#808080,#666666,#404040);
+}
